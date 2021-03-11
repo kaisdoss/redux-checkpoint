@@ -1,0 +1,87 @@
+.App {
+  text-align: center;
+}
+.checkbox{
+  width: 40px;
+  height:30px;
+}
+
+body {
+  background: #642b73; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #c6426e,
+    #642b73
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #c6426e,
+    #642b73
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  color: white;
+  font-family: "Akaya Telivigala", cursive;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+/* .App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+} */
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.todocheck{
+  color: #4325c9;
+  text-decoration: line-through;
+  padding-left: 2%;
+}
+.todolistitemcheck{
+  
+  padding-left: 2%;
+}
+
+h3 {
+  margin-bottom: 15px;
+}
+
+.row button {
+  margin: 0 10px !important;
+}
+
+button[variant="outline-primary"] {
+  min-width: 70px;
+  background-color: #fff;
+  border: 0;
+  margin-left: 5px;
+  border-radius: 2px;
+  transition: all .5s;
+  box-shadow: 1px 1px 5px rgba(12,123,241, 0.8);
+}
+
+button[variant="outline-primary"]:hover {
+  background-color: #0c7bf1;
+  color: #fff
+}
+
+.container {
+  margin-top : 50px;
+  max-width: 65%;
+}
